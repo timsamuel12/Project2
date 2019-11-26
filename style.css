@@ -1,0 +1,119 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+.container-div{
+    width: 50%;
+    margin: auto;
+}
+
+.questions-div{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email], input[type=date], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+.error{
+    color: red;
+    font-style: italic;
+}
+.success{
+    color: green;
+    font-style: italic;
+}
+
+@media screen and (max-width: 700px) {
+    .container-div, .questions-div{
+        width: 100%;
+    }
+}
+
+
+/* CSS for Navigation */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#questions {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#questions td, #questions th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#questions tr:nth-child(even){background-color: #f2f2f2;}
+
+#questions tr:hover {background-color: #ddd;}
+
+#questions th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
