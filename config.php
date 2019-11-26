@@ -4,7 +4,7 @@ session_start();
 define("HOST", "localhost");
 define("USERNAME", "root");
 define("PASSWORD", "root");
-define("DB", "ts553");
+define("DB", "timsamuel7");
 
 try {
     $pdo = new PDO("mysql:host=" . HOST . ";dbname=" . DB, USERNAME, PASSWORD);
